@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -28,7 +29,10 @@ namespace WpfApp1
 
         private void b_Click(object sender, RoutedEventArgs e)
         {
-
+            double F = Convert.ToDouble(t1.Text);
+            double G = Convert.ToDouble(t2.Text);
+            double H = F - G;
+            l2.Content = H;
         }
     }
 }
