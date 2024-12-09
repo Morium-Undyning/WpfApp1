@@ -25,5 +25,10 @@ namespace WpfApp1
             InitializeComponent();
             string hi = "Hi!";
         }
+
+        private void b_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
