@@ -29,8 +29,8 @@ namespace WpfApp1
 
         private void b_Click(object sender, RoutedEventArgs e)
         {
-            double f = Convert.ToDouble(t1);
-            double g = Convert.ToDouble(t2);
+            double f = Convert.ToDouble(t1.Text);
+            double g = Convert.ToDouble(t2.Text);
             if (g == 0)
             {
                 l4.Content = "Error";

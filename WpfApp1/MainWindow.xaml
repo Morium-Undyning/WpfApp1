@@ -13,6 +13,7 @@
         <Label x:Name="l4" Content="Label" HorizontalAlignment="Left" Height="26" Margin="606,258,0,0" VerticalAlignment="Top" Width="160"/>
         <Label x:Name="l3" Content="Label" HorizontalAlignment="Left" Height="39" Margin="467,245,0,0" VerticalAlignment="Top" Width="125"/>
         <Label x:Name="l2" Content="Label" HorizontalAlignment="Left" Height="36" Margin="227,255,0,0" VerticalAlignment="Top" Width="143"/>
+        <Label x:Name="l1" Content="Label" HorizontalAlignment="Left" Height="36" Margin="26,255,0,0" VerticalAlignment="Top" Width="143"/>
 
     </Grid>
 </Window>
