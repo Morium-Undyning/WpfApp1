@@ -28,7 +28,17 @@ namespace WpfApp1
 
         private void b_Click(object sender, RoutedEventArgs e)
         {
-
+            double f = Convert.ToDouble(t1);
+            double g = Convert.ToDouble(t2);
+            if (g == 0)
+            {
+                l4.Content = "Error";
+            }
+            else
+            {
+                double h = f / g;
+                l4.Content = h;
+            }
         }
     }
 }
