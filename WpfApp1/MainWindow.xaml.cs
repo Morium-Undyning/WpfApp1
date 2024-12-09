@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -32,6 +33,10 @@ namespace WpfApp1
             double B = Convert.ToDouble(t2.Text);
             double C = A + B;
             l1.Content = C;
+            double F = Convert.ToDouble(t1.Text);
+            double G = Convert.ToDouble(t2.Text);
+            double H = F - G;
+            l2.Content = H;
         }
     }
 }
