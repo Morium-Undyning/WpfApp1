@@ -10,6 +10,7 @@
         <Button x:Name="b" Content="Button" HorizontalAlignment="Left" Height="46" Margin="289,330,0,0" VerticalAlignment="Top" Width="161" Click="b_Click"/>
         <TextBox x:Name="t1" HorizontalAlignment="Left" Height="49" Margin="93,153,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
         <TextBox x:Name="t2" HorizontalAlignment="Left" Height="49" Margin="539,153,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134"/>
+        <Label x:Name="l4" Content="Label" HorizontalAlignment="Left" Height="26" Margin="606,258,0,0" VerticalAlignment="Top" Width="160"/>
         <Label x:Name="l3" Content="Label" HorizontalAlignment="Left" Height="39" Margin="467,245,0,0" VerticalAlignment="Top" Width="125"/>
         <Label x:Name="l2" Content="Label" HorizontalAlignment="Left" Height="36" Margin="227,255,0,0" VerticalAlignment="Top" Width="143"/>
 
