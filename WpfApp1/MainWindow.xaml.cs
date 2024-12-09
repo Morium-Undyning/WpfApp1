@@ -28,7 +28,10 @@ namespace WpfApp1
 
         private void b_Click(object sender, RoutedEventArgs e)
         {
-
+            double A = Convert.ToDouble(t1.Text);
+            double B = Convert.ToDouble(t2.Text);
+            double C = A + B;
+            l1.Content = C;
         }
     }
 }
